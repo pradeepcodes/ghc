@@ -1,7 +1,7 @@
 echo $PATH
 ./sync-all --no-dph get
 perl boot
-./configure --target=i386-apple-darwin11 --prefix=/usr/local/ghc-ios-sim/
+./configure --target=arm-apple-darwin10 --prefix=/usr/local/ghc-ios/
 make
-sudo mkdir -p /usr/local/ghc-ios-sim/
+sudo mkdir -p /usr/local/ghc-ios/
 sudo make install

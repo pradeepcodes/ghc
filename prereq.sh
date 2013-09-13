@@ -1,6 +1,5 @@
 echo $PATH 
 pwd
-brew update
 brew install autoconf automake
 
 #install llvm

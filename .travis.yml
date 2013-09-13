@@ -8,4 +8,7 @@ before_install: ./prereq.sh
 script: ./buildit.sh  
 notifications:
   email:
-    - justforcomp@gmail.com 
+    - justforcomp@gmail.com
+  on_success: always
+  on_failure: always
+     
