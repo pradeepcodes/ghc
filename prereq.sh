@@ -12,3 +12,5 @@ wget lambda.haskell.org/platform/download/2013.2.0.0/Haskell%20Platform%202013.2
 ls /Library/Haskell/bin
 export PATH=/Library/Haskell/bin:$PATH
 
+echo $PATH
+pwd

@@ -2,6 +2,7 @@ language: objective-c
 compiler:
     - gcc
 git:
-  submodules: false    
+  submodules: false
+env: PATH=/usr/local/llvm/bin:$PATH      
 before_install: ./prereq.sh    
 script: ./buildit.sh   
