@@ -1,5 +1,7 @@
 language: objective-c
 compiler:
     - gcc
+git:
+  submodules: false    
 before_install: ./prereq.sh    
 script: ./buildit.sh   
