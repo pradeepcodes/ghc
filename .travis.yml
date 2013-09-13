@@ -3,6 +3,6 @@ compiler:
     - gcc
 git:
   submodules: false
-env: PATH=/usr/local/llvm/bin:$PATH      
+env: PATH=/usr/local/llvm/bin:/usr/local/ghc-ios-scripts:$PATH      
 before_install: ./prereq.sh    
 script: ./buildit.sh   
