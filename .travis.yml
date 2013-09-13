@@ -5,4 +5,7 @@ git:
   submodules: false
 env: PATH=/usr/local/llvm/bin:/usr/local/ghc-ios-scripts:$PATH      
 before_install: ./prereq.sh    
-script: ./buildit.sh   
+script: ./buildit.sh  
+notifications:
+  email:
+    - justforcomp@gmail.com 
