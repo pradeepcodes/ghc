@@ -7,3 +7,4 @@ INTEGER_LIBRARY      = integer-simple
 Stage1Only 	     = YES
 DYNAMIC_GHC_PROGRAMS = NO
 GhcLibWays           = v
+GhcStage1HcOpts    = -O -fllvm
